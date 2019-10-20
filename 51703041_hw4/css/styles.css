@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+table,td,th {
+  border: solid black 1px;
+  border-collapse: collapse;
+  
+}
+table{
+  width: 100%;
+}
+.tID{
+  width: 30%;
+}
+.tNAME{
+  width: 70%;
+}
+.box{	
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.carousel-inner img {
+      width: 50%;
+      height: 50%;
+  }
+
+.a {
+	padding-left: 80px;
+	height: 10px;
+	background-color: white;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
